@@ -1,4 +1,4 @@
-package com.termux.app;
+package com.terminus.app;
 
 import com.termux.shared.termux.data.TermuxUrlUtils;
 
