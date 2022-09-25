@@ -1,4 +1,4 @@
-package com.termux.app.fragments.settings.termux;
+package com.terminus.app.fragments.settings.termux;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import androidx.preference.PreferenceDataStore;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.termux.R;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.terminus.R;
+import com.terminus.shared.termux.settings.preferences.TermuxAppSharedPreferences;
 
 @Keep
 public class TerminalViewPreferencesFragment extends PreferenceFragmentCompat {
