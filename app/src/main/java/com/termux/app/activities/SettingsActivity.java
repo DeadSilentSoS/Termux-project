@@ -1,4 +1,4 @@
-package com.termux.app.activities;
+package com.terminus.app.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,22 +9,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.termux.R;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.models.ReportInfo;
-import com.termux.app.models.UserAction;
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.activity.media.AppCompatActivityUtils;
-import com.termux.shared.theme.NightMode;
+import com.terminus.R;
+import com.terminus.shared.activities.ReportActivity;
+import com.terminus.shared.file.FileUtils;
+import com.terminus.shared.models.ReportInfo;
+import com.terminus.app.models.UserAction;
+import com.terminus.shared.interact.ShareUtils;
+import com.terminus.shared.android.PackageUtils;
+import com.terminus.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
+import com.terminus.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
+import com.terminus.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
+import com.terminus.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
+import com.terminus.shared.android.AndroidUtils;
+import com.terminus.shared.termux.TermuxConstants;
+import com.terminus.shared.termux.TermuxUtils;
+import com.terminus.shared.activity.media.AppCompatActivityUtils;
+import com.terminus.shared.theme.NightMode;
 
 public class SettingsActivity extends AppCompatActivity {
 
